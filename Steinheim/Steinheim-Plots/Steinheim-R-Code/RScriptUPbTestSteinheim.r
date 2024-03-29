@@ -1,7 +1,7 @@
 library(IsoplotR)
 
 # Read the csv file
-data <- read.csv("A:/UPb Steinheim Data/UPb-Steinheim_IsoplotR_test.csv", 
+data <- read.csv("A:\Geochron Data LAICPMS\Shatter-Cone-Project-2024\Steinheim\Steinheim-Data\UPb-Steinheim_IsoplotR_input.csv", 
   header = TRUE # dataset has a header
 )
 data <- as.matrix(data)# Convert the data to a matrix
