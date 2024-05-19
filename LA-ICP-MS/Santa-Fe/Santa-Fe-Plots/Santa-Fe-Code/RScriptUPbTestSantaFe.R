@@ -1,7 +1,7 @@
 library(IsoplotR)
 
 # Read the csv file
-data <- read.csv("A:\Geochron Data LAICPMS\Shatter-Cone-Project-2024\Santa-Fe\Santa-Fe-Data\UPb-SantaFe_IsoplotR_input.csv", 
+data <- read.csv("A:\\Geochron Data LAICPMS\\Shatter-Cone-Project-2024\\Santa-Fe\\Santa-Fe-Data\\UPb-SantaFe_IsoplotR_input.csv", 
   header = TRUE # dataset has a header
 )
 data <- as.matrix(data) # Convert the data to a matrix
@@ -44,7 +44,7 @@ sf <- read.data(data,
   omit.stroke = "yellow"
 )
 
-# Plot second T-W diagram
+# Plot second Tera-Wasserburg diagram
 #1132/217 Ma, n=17, MSWD = 0.65, p = 0.84
 #Omit: 2, 3, 15, 26, 18, 27, 13, 7, 12, 5
 d1132 <- concordia(
